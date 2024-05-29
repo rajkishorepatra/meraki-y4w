@@ -6,7 +6,7 @@ const Heading = ({ start, end, color }) => {
       <h2
         className={` ${
           color === "blue" ? "title" : "newtitle"
-        } mx-auto flex justify-center text-4xl md:text-6xl mt-10`}
+        } mx-auto flex justify-center text-4xl md:text-6xl py-20`}
       >
         {start} &nbsp;<span>{end}</span>
       </h2>

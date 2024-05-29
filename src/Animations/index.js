@@ -1,0 +1,1 @@
+export { default as ABOUTUS } from "./Animation - 1716898836967.json";
