@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/meraki-y4w/static/css/main.cc7e2606.css",
-    "main.js": "/meraki-y4w/static/js/main.b6ef8a6d.js",
+    "main.css": "/meraki-y4w/static/css/main.47342bfd.css",
+    "main.js": "/meraki-y4w/static/js/main.72a2ff57.js",
     "static/media/heroImg.jpg": "/meraki-y4w/static/media/heroImg.b623d8d3081eb4890286.jpg",
     "index.html": "/meraki-y4w/index.html",
-    "main.cc7e2606.css.map": "/meraki-y4w/static/css/main.cc7e2606.css.map",
-    "main.b6ef8a6d.js.map": "/meraki-y4w/static/js/main.b6ef8a6d.js.map"
+    "main.47342bfd.css.map": "/meraki-y4w/static/css/main.47342bfd.css.map",
+    "main.72a2ff57.js.map": "/meraki-y4w/static/js/main.72a2ff57.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc7e2606.css",
-    "static/js/main.b6ef8a6d.js"
+    "static/css/main.47342bfd.css",
+    "static/js/main.72a2ff57.js"
   ]
 }
