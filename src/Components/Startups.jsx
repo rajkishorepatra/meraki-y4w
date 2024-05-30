@@ -7,26 +7,23 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// import required modules
 import {
   Autoplay,
   EffectCoverflow,
   Navigation,
-  Pagination,
 } from "swiper/modules";
 
 const Startups = () => {
   return (
     <>
-      <div className="startupbg" id="startups">
+      <div className="startupbg pb-24" id="startups">
         <Heading start={"Meet the"} end={"Startups"} color={"blue"} />
         <div
           style={{ padding: "5rem 2rem" }}
-          className="mx-auto flex justify-center items-center"
+          className="mx-auto flex justify-center items-center pb-16"
         >
           <Swiper
             effect={"coverflow"}
-            //   observer={"true"}
             grabCursor={true}
             centeredSlides={true}
             breakpoints={{
@@ -50,7 +47,7 @@ const Startups = () => {
               delay: 2500,
               disableOnInteraction: false,
             }}
-            modules={[EffectCoverflow, Autoplay, Pagination, Navigation]}
+            modules={[EffectCoverflow, Autoplay, Navigation]}
             className="swiper py-5 mx-auto flex justify-center items-center"
           >
             <SwiperSlide className="swiper-slide">
@@ -72,10 +69,8 @@ const Startups = () => {
               <StartupCard />
             </SwiperSlide>
           </Swiper>
-          {/* </Box> */}
         </div>
       </div>
-      {/* </div> */}
     </>
   );
 };
