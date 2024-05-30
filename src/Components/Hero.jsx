@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-      <div className="bg-hero-pattern h-auto md:min-h-screen p-10 bg-cover bg-no-repeat -mt-5 text-center text-white inset-0 flex items-center justify-center flex-col">
+      <div className="bg-hero-pattern scroll-smooth h-auto md:min-h-screen p-10 bg-cover bg-no-repeat -mt-5 text-center text-white inset-0 flex items-center justify-center flex-col">
         <div className="max-w-screen-xl">
           <h1
             className="text-2xl md:text-7xl font-semibold"
@@ -12,8 +12,8 @@ const Hero = () => {
             data-aos-delay="50"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
-            data-aos-mirror="true"
-            data-aos-once="false"
+            // data-aos-mirror="true"
+            // data-aos-once="false"
             //  data-aos-anchor-placement="top-center"
           >
             <span className="text-theme-blue md:text-8xl">Meraki </span>-

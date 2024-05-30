@@ -16,9 +16,9 @@ import { PiStrategyBold } from "react-icons/pi";
 const Support = () => {
   return (
     <>
-      <div className="bg-theme-blue py-10">
-        <div className="max-w-screen-2xl mx-auto " id="about">
-          <Heading start={"How Meraki"} end={"Supports Startups?"} />
+      <div className="bg-theme-blue py-10" id="support">
+        <div className="max-w-screen-2xl mx-auto" id="about">
+          <Heading start={"How Meraki"} end={"Supports Startups?"} col={true}/>
         </div>
         <div className="service-container flex flex-wrap">
           <SupportCard

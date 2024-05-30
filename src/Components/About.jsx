@@ -24,11 +24,12 @@ const About = () => {
   }, []);
   return (
     <>
-      <div className="max-w-screen-2xl my-20 mt-5 mx-auto" id="about">
+    <div className="startupbg">
+      <div className="max-w-screen-2xl startupbg  mx-auto scroll-smooth"  id="about">
         <Heading start={"About"} end={"Meraki"} color={"blue"} />
         {/* <h1 className='text-theme-blue text-6xl text-center font-semibold'>About Meraki</h1> */}
 
-        <div className={`flex justify-between ${width < 600 ? "flex-wrap" : ""}`}>
+        <div className={`flex justify-between py-14 ${width < 600 ? "flex-wrap" : ""}`}>
           <div className="flex justify-end mr-0 right-0 left-auto">
             <Lottie
               options={defaultOptions}
@@ -38,7 +39,7 @@ const About = () => {
               width={width}
             />
           </div>
-          <div className="p-8 text-lg md:text-3xl my-auto font-sans normal-case tracking-wider [word-spacing:5px] md:mx-10">
+          <div className="p-8 text-lg md:text-3xl my-auto font-sans normal-case tracking-wider  md:mx-10">
             We are looking to provide help to 10 semi-rural and semi-urban
             startups. Startups solving a problem concerning the objective of
             Youth4Water Plus, i.e., water, sanitation, and hygiene (WASH), and
@@ -75,6 +76,7 @@ const About = () => {
           </div>
           <FaHandsHelping size={400} className="text-theme-blue" />
         </div> */}
+      </div>
       </div>
     </>
   );
