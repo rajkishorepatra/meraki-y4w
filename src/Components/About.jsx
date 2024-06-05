@@ -24,59 +24,36 @@ const About = () => {
   }, []);
   return (
     <>
-    <div className="startupbg">
-      <div className="max-w-screen-2xl md:pb-16 mx-auto scroll-smooth"  id="about">
-        <Heading start={"About"} end={"Meraki"} color={"blue"} />
-        {/* <h1 className='text-theme-blue text-6xl text-center font-semibold'>About Meraki</h1> */}
+      <div className="startupbg">
+        <div className="max-w-screen-2xl md:pb-16 mx-auto scroll-smooth" id="about">
+          <Heading start={"About"} end={"Meraki"} color={"blue"} />
+          {/* <h1 className='text-theme-blue text-6xl text-center font-semibold'>About Meraki</h1> */}
 
-        <div className={`flex justify-center py-14 flex-wrap lg:flex-nowrap`}>
-          <div className="flex justify-center mx-auto lg:mr-0 md:right-0 md:left-auto my-auto">
-            <Lottie
-              options={defaultOptions}
-              isPaused={false}
-              isClickToPauseDisabled={true}
-              height={height}
-              width={width}
-            />
-          </div>
-          <div className="p-8 text-lg md:text-3xl my-auto font-sans normal-case tracking-wider ">
-            We are looking to provide help to 10 semi-rural and semi-urban
-            startups. Startups solving a problem concerning the objective of
-            Youth4Water Plus, i.e., water, sanitation, and hygiene (WASH), and
-            climate change. Our mission is to empower startups to address
-            critical issues of Water, Sanitation, Hygiene, and Climate Change.
-          </div>
-        </div>
-        {/* <div className="flex justify-between">
-          <Lottie
-            options={defaultOptions}
-            isPaused={false}
-            isClickToPauseDisabled={true}
-            height={400}
-            width={400}
-          />
-          <div className="p-10">
-            WE ARE LOOKING TO PROVIDE HELP TO 10 SEMI-RURAL AND SEMI-URBAN
-            STARTUP. STARTUPS SOLVING A PROBLEM CONCERNING THE OBJECTIVE OF
-            YOUTH4WATER PLUS i.e. WATER, SANITATION, AND HYGIENE (WASH) CLIMATE
-            CHANGE
+          <div className={`flex justify-center py-14 flex-wrap lg:flex-nowrap`}>
+            <div className="flex justify-center mx-auto lg:mr-0 md:right-0 md:left-auto my-auto">
+              <Lottie
+                options={defaultOptions}
+                isPaused={false}
+                isClickToPauseDisabled={true}
+                height={height}
+                width={width}
+              />
+            </div>
+            <div className="p-8 text-lg md:text-3xl my-auto font-sans normal-case tracking-wider ">
+              We are looking to provide help to 10 semi-rural and semi-urban
+              startups. Startups solving a problem concerning the objective of
+              Youth4Water Plus, i.e., water, sanitation, and hygiene (WASH), and
+              climate change. Our mission is to empower startups to address
+              critical issues of Water, Sanitation, Hygiene, and Climate Change.
+            </div>
           </div>
         </div>
-        <div className="flex justify-around -mt-16">
-          <FaHandsHelping size={400} className="text-theme-blue" />
-          <div className="text-2xl my-auto font-semibold ml-16">
-            WE ARE LOOKING TO PROVIDE HELP TO 10 SEMI-RURAL AND SEMI-URBAN
-            STARTUP.
-          </div>
-        </div>
-        <div className="!flex justify-between -mt-24">
-          <div className="text-2xl my-auto font-semibold px-5">
-            WE ARE LOOKING TO PROVIDE HELP TO 10 SEMI-RURAL AND SEMI-URBAN
-            STARTUP
-          </div>
-          <FaHandsHelping size={400} className="text-theme-blue" />
-        </div> */}
       </div>
+
+      <div className="bg-theme-blue flex justify-center flex-wrap">
+        <img src="/assets/gallery1.jpeg" alt="gallery1" className="w-96 m-10" />
+        <img src="/assets/gallery2.jpeg" alt="gallery1" className="w-96 m-10" />
+        <img src="/assets/gallery3.jpeg" alt="gallery1" className="w-96 m-10" />
       </div>
     </>
   );

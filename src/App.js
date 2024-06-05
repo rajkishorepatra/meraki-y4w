@@ -14,11 +14,11 @@ function App() {
       <NavBar />
       <Hero />
       <About />
-      <Support />
-      <Startups />
-      <Impact/>
-      <Contact/>
-      <Footer/>
+      {/* <Support /> */}
+      {/* <Startups /> */}
+      {/* <Impact/> */}
+      <Contact />
+      <Footer />
     </div>
   );
 }

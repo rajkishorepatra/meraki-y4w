@@ -16,19 +16,17 @@ const NavBar = () => {
   return (
     <>
       <nav className="bg-white border-gray-200 dark:bg-gray-900 sticky top-0 z-50">
-        <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
-            href="https://flowbite.com/"
+            href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
-              className="h-8"
+              src="/assets/merakipng.png"
+              className="h-10 w-32"
               alt="Flowbite Logo"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Flowbite
-            </span>
+
           </a>
           <button
             data-collapse-toggle="navbar-sticky"
@@ -56,15 +54,15 @@ const NavBar = () => {
             </svg>
           </button>
           <div
-          className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isOpen ? 'block' : 'hidden'}`}
-          id="navbar-sticky"
-        >
-            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${isOpen ? 'block' : 'hidden'}`}
+            id="navbar-sticky"
+          >
+            <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white">
               <li>
                 <a
-                onClick={() => handleScrollToSection('home')}
+                  onClick={() => handleScrollToSection('home')}
                   href="#"
-                  className="block py-2 px-3 text-white rounded md:bg-transparent md:p-0 dark:text-white"
+                  className="block py-2 px-3 text-gray-900 rounded md:bg-transparent md:p-0"
                   aria-current="page"
                 >
                   Home
@@ -72,23 +70,24 @@ const NavBar = () => {
               </li>
               <li>
                 <a
-                onClick={() => handleScrollToSection('about')}
+                  onClick={() => handleScrollToSection('about')}
                   href="#about"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   About
                 </a>
               </li>
-              <li>
+
+              {/* <li>
                 <a
-                onClick={() => handleScrollToSection('support')}
+                  onClick={() => handleScrollToSection('support')}
                   href="#support"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Support
                 </a>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <a
                 onClick={() => handleScrollToSection('startups')}
                   href="#startups"
@@ -105,14 +104,23 @@ const NavBar = () => {
                 >
                   Impact
                 </a>
-              </li>
+              </li> */}
               <li>
                 <a
-                onClick={() => handleScrollToSection('contact')}
+                  onClick={() => handleScrollToSection('contact')}
                   href="#contact"
                   className="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Contact
+                </a>
+              </li>
+              <li>
+                <a
+                  onClick={() => handleScrollToSection('support')}
+                  href="#support"
+                  className="block !py-1 text-white !px-3 text-gray-900 rounded bg-theme-blue hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  Register here
                 </a>
               </li>
             </ul>
