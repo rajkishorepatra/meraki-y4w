@@ -15,7 +15,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className="bg-white border-gray-200 dark:bg-gray-900 sticky top-0 z-50">
+      <nav className="bg-white border-gray-200 sticky top-0 z-50">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a
             href="/"
@@ -23,7 +23,7 @@ const NavBar = () => {
           >
             <img
               src="/assets/merakipng.png"
-              className="h-10 w-32"
+              className="h-10 w-32 md:h-12 md:w-44"
               alt="Flowbite Logo"
             />
 
@@ -117,7 +117,7 @@ const NavBar = () => {
               <li>
                 <a
                   onClick={() => handleScrollToSection('support')}
-                  href="#support"
+                  href="https://forms.gle/W1oyYGAznbfWpVan9"
                   className="block !py-1 text-white !px-3 text-gray-900 rounded bg-theme-blue hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Register here

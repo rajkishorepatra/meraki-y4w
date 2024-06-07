@@ -31,13 +31,13 @@ textarea {
 }
 
 .contact-form {
-  background-color: #1cabe2;
+  background-color: #52b501;
   position: relative;
 }
 
 .circle {
   border-radius: 50%;
-  background: linear-gradient(135deg, transparent 20%, #1cabe2);
+  background: linear-gradient(135deg, transparent 20%, #52b501);
   position: absolute;
 }
 
@@ -60,7 +60,7 @@ textarea {
   position: absolute;
   width: 26px;
   height: 26px;
-  background-color: #1cabe2;
+  background-color: #52b501;
   transform: rotate(45deg);
   top: 50px;
   left: -13px;
@@ -132,7 +132,7 @@ textarea.input {
   background-color: #fff;
   border: 2px solid #fafafa;
   font-size: 0.95rem;
-  color: #1cabe2;
+  color: #52b501;
   line-height: 1;
   border-radius: 5px;
   outline: none;
@@ -199,7 +199,7 @@ textarea.input {
 }
 
 .contact-info .title {
-  color: #1cabe2;
+  color: #52b501;
 }
 
 .text {
@@ -216,7 +216,7 @@ textarea.input {
 }
 
 .information i {
-  color: #1cabe2;
+  color: #52b501;
 }
 
 .icon {
@@ -241,7 +241,7 @@ textarea.input {
   width: 35px;
   height: 35px;
   border-radius: 5px;
-  background: linear-gradient(45deg, #1cabe2, #124256);
+  background: linear-gradient(45deg, #52b501, #124256);
   color: #fff;
   text-align: center;
   line-height: 35px;
@@ -258,7 +258,7 @@ textarea.input {
   position: absolute;
   width: 110px;
   height: 100px;
-  border: 22px solid #1cabe2;
+  border: 22px solid #52b501;
   border-radius: 50%;
   bottom: -77px;
   right: 50px;
@@ -270,7 +270,7 @@ textarea.input {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: linear-gradient(to bottom, #1cabe2, #073d52);
+  background: linear-gradient(to bottom, #52b501, #073d52);
   bottom: 50%;
   right: 50%;
   transform: translate(-40%, 38%);
