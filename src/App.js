@@ -8,15 +8,17 @@ import Impact from "./Components/Impact";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 
+import {db} from "./firebase-config";
+
 function App() {
   return (
     <div className="scroll-smooth">
       <NavBar />
       <Hero />
       <About />
-      {/* <Support /> */}
-      {/* <Startups /> */}
-      {/* <Impact/> */}
+      <Support />
+      <Startups />
+      <Impact/>
       <Contact />
       <Footer />
     </div>
