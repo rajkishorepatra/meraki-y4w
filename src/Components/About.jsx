@@ -59,7 +59,7 @@ const About = () => {
               />
             </div>
             <div className="p-8 text-lg md:text-3xl my-auto font-sans normal-case tracking-wider ">
-              We are looking to provide help to 10 semi-rural and semi-urban
+              We are looking to provide help to 8 semi-rural and semi-urban
               startups. Startups solving a problem concerning the objective of
               Youth4Water Plus, i.e., water, sanitation, and hygiene (WASH), and
               climate change. Our mission is to empower startups to address
