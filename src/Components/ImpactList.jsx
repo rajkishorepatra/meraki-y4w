@@ -23,29 +23,31 @@ const ImpactList = () => {
 
   return (
     <>
-      <div className="-mt-10">
-        <Heading start={"Our"} end={"Impact"} />
-      </div>
-      <main>
-        <ul class="infoGraphic">
-          {impact_list.map((item, idx) => (
-            <li key={idx}>
-              <div class="numberWrap">
-                <div class="number fontColor1">{idx + 1}</div>
-                <div class="coverWrap">
-                  <div class="numberCover"></div>
-                </div>
-              </div>
-              <div class="content">
-                <div class="icon text-gray-500">
-                  <MdDeveloperBoard />
-                </div>
-                <h2>{item.title}</h2>
-                <p>{item.description}</p>
-              </div>
-            </li>
-          ))}
-          {/* <li>
+      {impact_list.length > 0 && (
+        <>
+          <div className="-mt-10">
+            <Heading start={"Our"} end={"Impact"} />
+          </div>
+          <main>
+            <ul class="infoGraphic">
+              {impact_list.map((item, idx) => (
+                <li key={idx}>
+                  <div class="numberWrap">
+                    <div class="number fontColor1">{idx + 1}</div>
+                    <div class="coverWrap">
+                      <div class="numberCover"></div>
+                    </div>
+                  </div>
+                  <div class="content">
+                    <div class="icon text-gray-500">
+                      <MdDeveloperBoard />
+                    </div>
+                    <h2>{item.title}</h2>
+                    <p>{item.description}</p>
+                  </div>
+                </li>
+              ))}
+              {/* <li>
             <div class="numberWrap">
               <div class="number fontColor1">1</div>
               <div class="coverWrap">
@@ -147,8 +149,10 @@ const ImpactList = () => {
               </p>
             </div>
           </li> */}
-        </ul>
-      </main>
+            </ul>
+          </main>
+        </>
+      )}
     </>
   );
 };
