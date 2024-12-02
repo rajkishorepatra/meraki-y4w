@@ -59,7 +59,7 @@ const About = () => {
               />
             </div>
             <div className="p-8 text-lg md:text-3xl my-auto font-sans normal-case tracking-wider ">
-              We are looking to provide help to 8 semi-rural and semi-urban
+              We are aiming to help 8 semi-rural and semi-urban
               startups. Startups solving a problem concerning the objective of
               Youth4Water Plus, i.e., water, sanitation, and hygiene (WASH), and
               climate change. Our mission is to empower startups to address
@@ -72,7 +72,7 @@ const About = () => {
       <div className="bg-theme-blue pt-28 pb-20 px-8">
         <ImageSlider />
 
-        <div className="mb-5 mt-14 mx-auto flex justify-center">
+        {/* <div className="mb-5 mt-14 mx-auto flex justify-center">
           <div>
             <h1 className="text-5xl font-medium text-center">Want to register on&nbsp;<i><span className="font-semibold text-white">Meraki</span></i>&nbsp;?</h1>
             <div className="w-auto mx-auto flex items-center justify-center mt-10"><a
@@ -83,7 +83,7 @@ const About = () => {
             </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
